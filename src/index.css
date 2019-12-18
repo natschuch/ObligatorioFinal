@@ -1,0 +1,351 @@
+#mainNav {
+    height: 70px;
+    background-color: #fff;
+    font-size: 13px;
+  }
+  
+  /* Imagen y texto arriba */
+  
+  .caratula {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    min-height: 500px;
+    padding: 170px 0;
+    background: linear-gradient(
+    rgba(117, 117, 117, 0.6), rgba(117, 117, 117, 0.6)), url("/piezas.jpg") center center no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    }
+  
+  .caratula h1 {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    line-height: 80px;
+    letter-spacing: 3px;
+  }
+  
+  .caratula h2 {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 9px;
+    font-size: 90px;
+  }
+  
+  .caratula h3 {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    line-height: 100px;
+    letter-spacing: 3px;
+  }
+  
+  .socialMediaIcons {
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 7px;
+  }
+  
+  #btn {
+    font-size: 16px;
+    border: 0;
+    width: 200px;
+    height: 40px;
+    background: #2244B3;
+  }
+  
+  /* Producto y texto lateral */
+  
+  #segundoBloque {
+     margin: 70px;
+  }
+  
+  #bloqueTexto {
+    padding-left: 50px;
+  }
+  
+  .columnas {
+    list-style: none;
+  }
+  
+  #productoAzul {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    width: 550px; 
+    height: 450px;
+  }
+  
+  
+  #btns {
+    font-size: 15px;
+    border: 0;
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    background:#2244B3;
+  }
+  
+  
+  #btnes {
+    font-size: 15px;
+    border: 0;
+    text-align: center;
+    width: 150px;
+    height: 45px;
+  }
+  
+  /* Servicios */
+  
+  .cards {
+    margin-top: 50px;
+    background: #eeeeee;
+    height: 470px;
+    margin-top: 70px;
+  }
+  
+  .card {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 280px;
+    width: 50px;
+  }
+  
+  
+  .card-icon {
+    text-align: center;
+    font-size: 55px;
+    color:#2244B3;
+    letter-spacing: 7px;
+  }
+  
+  
+  .card-text {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  /* Certificaciones */
+  
+  .bloquetimeline {
+    margin-top: 50px;
+    width: 500px;
+    margin-bottom: 70px;
+  }
+  
+  
+  .timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .timeline-line {
+    content: ' ';
+    background: #ddd;
+    position: absolute;
+    left: -6px;
+    width: 2px;
+    height: 550px;
+    top: 0;
+  }
+  
+  .timeline-item {
+    margin-top: 20px;
+    background: rgb(241, 240, 240);
+    z-index:100;
+    height: 140px;
+    width: 470px;
+  }
+  
+   #simbolo {
+   margin-left: -52px;
+   margin-top: 12px;
+   z-index: 400;
+   color: white;
+   position: absolute;
+   font-size: 25px;
+  }
+  
+  .fondo-simbolo {
+   background: #2244B3;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   margin-left: -65px;
+   z-index: 300;
+  }
+  
+  #certificaciones {
+    padding-top: 12px;
+  }
+  
+  /* circulo */
+  .timeline-item::before {
+    content: ' ';
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #2244B3;
+    left: -10px;
+    width: 10px;
+    height: 10px;
+    z-index: 200;
+  }
+  
+  #inferior {
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+  }
+  
+  #segunda {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+  }
+  
+  
+  /* Trabajos */
+  .trabajos{
+    background: #eeeeee;
+    height: 730px;
+  }
+  
+  #botonimg1 {
+    width: 150px;
+    height: 45px;
+    background: #2244B3;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  #botonimg2 {
+    width: 105px;
+    height: 45px;
+    background: #2244B3;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  #botonimg3 {
+    width: 140px;
+    height: 45px;
+    background: #2244B3;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  #botonimg4 {
+    width: 90px;
+    height: 45px;
+    background: #2244B3;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Numeros */
+  
+  .numeros {
+    background:linear-gradient(
+    rgba(80, 79, 79, 0.6), rgba(80, 79, 79, 0.6)), url("/bg-1-01.png") center center no-repeat;
+    height:350px;
+    color: white;
+    }
+  
+  #icono {
+    font-size: 50px;
+    color:#2244B3;
+  }
+  
+  /* Contacto */
+  
+  .contacto {
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(78, 77, 77, 0.2), 0 6px 20px 0 rgba(68, 68, 68, 0.19);
+    height: 950px;
+    margin-bottom: 50px; 
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+  
+  
+  #boton-contacto {
+    width: 150px;
+    background: #2244B3;
+  }
+  
+  
+  .derecha {
+    padding-left: 10px;
+    margin-top: 25px;
+  }
+  
+  
+  .container-derecha {
+    border: 1px solid rgb(199, 199, 199);
+    width: 500px;
+    height: 250px;
+    margin-top: 30px;
+  }
+  
+  .container-mapa {
+    border: 1px solid rgb(199, 199, 199);
+    height: 450;
+    width: 1050px;
+  }
+  
+  #derecha-icon {
+    font-size: 25px;
+    z-index:0;
+    color: white;
+    background: #2244B3;
+    border-radius: 50%;
+    border: 1px solid #2244B3;
+    padding: 11px;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+  }
+  
+  
+  .container-derecha p {
+    margin-left: 25px;
+  }
+  
+  .container-derecha i {
+   
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-right: 10px;
+  }
+  
+  
+  .footer {
+    width: 100%;
+    height: 220px;
+    background: rgb(29, 29, 29);
+  }
+  
+  .footer p {
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .socialMediaIcons2 {
+    padding-top: 70px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 7px;
+  }
